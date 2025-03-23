@@ -6,9 +6,9 @@ export default function Skills() {
 
         <ol className="text-center font-serif">
 
-            <li> &#9733; Front-end web developer with specilaztion in React.js.</li> 
+            <li> &#9733; Front-end web developer with specialaztion in React.js.</li> 
                 
-            <li>&#9733; Made projects by using API and fiebase. </li>
+            <li>&#9733; Made projects by using API and firebase. </li>
             
         </ol>
 

@@ -16,6 +16,7 @@ export default function Contact() {
           <p className="font-semibold text-center">Linkedin:-
           <p className="text-blue-600 hover:underline font-mono">  <a href="Linkdin:">https://www.linkedin.com/in/suman-saini-6726a8105/</a></p></p>
 
+
       </div>
     </section>
   )

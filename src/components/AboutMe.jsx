@@ -7,20 +7,32 @@ export default function AboutMe() {
   return (
     <section className="flex-grid items-center justify-center text-center my-8 px-4">
       <div className="flex flex-col items-center mb-6">
-      <img src="/su.jpg" alt="Profile" className="w-48 h-48 rounded-full object-cover mb-4 shadow-lg border-4 border-white" />
+        <img
+          src="/su.jpg"
+          alt="Profile"
+          className="w-48 h-48 rounded-full object-cover mb-4 shadow-lg border-4 border-white"
+        />
 
         <h1 className="text-5xl font-bold mb-2">Suman Saini</h1>
-        <h3 className="text-3xl font-mono py-4 mb-3">Front-end Web Developer</h3>
+        <h3 className="text-3xl font-mono py-4 mb-3">
+          Front-end Web Developer
+        </h3>
+
         <p className="text-black-600 leading-relaxed font-serif max-w-3xl mx-auto py-4">
           I am a passionate front-end web developer specializing in React.js. I
           enjoy building responsive and dynamic web applications. My expertise
           lies in JavaScript, Tailwind CSS, and creating engaging user
           experiences.
         </p>
+
+        <a href="/Suman Frontend Developer.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="bg-blue-500 text-white px-5 py-2 rounded">
+            View My CV
+          </button>
+        </a>
       </div>
 
       <div className="flex justify-center space-x-10 mt-6">
-       
         <a
           href="https://github.com/sainiSu"
           target="_blank"
@@ -35,7 +47,6 @@ export default function AboutMe() {
           <span className="text-sm">GitHub</span>
         </a>
 
- 
         <a
           href="https://www.linkedin.com/in/suman-saini-6726a8105/"
           target="_blank"
@@ -50,7 +61,6 @@ export default function AboutMe() {
           <span className="text-sm">LinkedIn</span>
         </a>
 
-     
         <a
           href="mailto:gunisu3@gmail.com"
           className="flex flex-col items-center space-y-2"
@@ -63,7 +73,6 @@ export default function AboutMe() {
           <span className="text-sm">Email</span>
         </a>
 
-        
         <div className="flex flex-col items-center space-y-2">
           <img
             src={phoneIcon}
