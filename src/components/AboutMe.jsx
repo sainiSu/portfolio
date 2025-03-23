@@ -7,11 +7,8 @@ export default function AboutMe() {
   return (
     <section className="flex-grid items-center justify-center text-center my-8 px-4">
       <div className="flex flex-col items-center mb-6">
-        <img
-          src="\src\assets\image\su.jpg"
-          alt="Profile"
-          className="w-48 h-48.1 rounded-full object-cover mb-4 shadow-lg border-4 border-white"
-        />
+      <img src="/su.jpg" alt="Profile" className="w-48 h-48 rounded-full object-cover mb-4 shadow-lg border-4 border-white" />
+
         <h1 className="text-5xl font-bold mb-2">Suman Saini</h1>
         <h3 className="text-3xl font-mono py-4 mb-3">Front-end Web Developer</h3>
         <p className="text-black-600 leading-relaxed font-serif max-w-3xl mx-auto py-4">
