@@ -25,7 +25,11 @@ export default function AboutMe() {
           experiences.
         </p>
 
-        
+        <a href="/Suman Frontend Developer.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="bg-blue-500 text-white text-lg font-bold px-4 py-2 rounded">
+            View My CV
+          </button>
+        </a>
       </div>
 
       <div className="flex justify-center space-x-10 mt-6">

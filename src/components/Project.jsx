@@ -1,5 +1,5 @@
 import image1 from "../assets/image/inpro.png";
-import image2 from "../assets/image/Portfolio.png";
+import image2 from "../assets/image/project1.png";
 import image3 from "../assets/image/Budget.png";
 
 export default function Project() {
@@ -15,16 +15,16 @@ export default function Project() {
       title: "Budget Calculator",
       image: image3,
       description: "Budget calculation of different services.",
-      link: "https://github.com/sainiSu",
+      link: "https://vercel.com/sainisus-projects/sprint-6-budgets",
     },
 
     {
-      title: "Portfolio",
+      title: "Movie Mood",
       image: image2,
-      description: "You can view my portfolio here.",
-      link: "https://portfolio-ecru-three-57.vercel.app/",
+      description: "How's your mood today.",
+      link: "http://movie-mood-omega.vercel.app/",
     },
-    
+
   ];
 
   return (
