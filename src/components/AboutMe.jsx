@@ -24,12 +24,23 @@ export default function AboutMe() {
           lies in JavaScript, Tailwind CSS, and creating engaging user
           experiences.
         </p>
+    
+    <div className="flex justify-center space-x-4 mt-4">
 
-        <a href="/Suman Frontend Developer.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="/Suman Frontend Developer..pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-blue-500 text-white text-lg font-bold px-4 py-2 rounded">
-            View My CV
+            View Resume
           </button>
         </a>
+
+        <a href="/Suman Frontend Developer..pdf" download><button className="bg-blue-500 text-white text-lg font-bold px-4 py-2 rounded">
+            Download Resume
+          </button></a>
+
+    </div>
+        
+
+
       </div>
 
       <div className="flex justify-center space-x-10 mt-6">
