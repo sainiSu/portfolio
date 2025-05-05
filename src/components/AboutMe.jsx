@@ -2,6 +2,8 @@ import githubIcon from "../assets/image/github.png";
 import linkedinIcon from "../assets/image/linked.png";
 import emailIcon from "../assets/image/mail.png";
 import phoneIcon from "../assets/image/phone-call.png";
+import { FaEye , FaDownload } from "react-icons/fa";
+
 
 export default function AboutMe() {
   return (
@@ -28,13 +30,26 @@ export default function AboutMe() {
     <div className="flex justify-center space-x-4 mt-4">
 
     <a href="/Suman Frontend Developer..pdf" target="_blank" rel="noopener noreferrer">
-          <button className="bg-blue-500 text-white text-lg font-bold px-4 py-2 rounded">
-            View Resume
+          <button className="bg-neutral-600 text-white text-lg font-bold px-4 py-2 rounded-md 
+                         flex items-center space-x-2 
+                         transition duration-300 ease-in-out transform 
+                         hover:bg-blue-500 hover:scale-105 active:bg-red-600">
+
+            <FaEye className="inline-block mr-2" />  
+
+            <span>Viwe Resume </span>
+
           </button>
         </a>
 
-        <a href="/Suman Frontend Developer..pdf" download><button className="bg-blue-500 text-white text-lg font-bold px-4 py-2 rounded">
-            Download Resume
+        <a href="/Suman Frontend Developer..pdf" download><button className="bg-neutral-600 text-white text-lg font-bold px-4 py-2 rounded-md 
+                         flex items-center space-x-2 
+                         transition duration-300 ease-in-out transform 
+                         hover:bg-blue-500 hover:scale-105 active:bg-red-600">
+
+          <FaDownload className="inline-block mr-2" />
+            <span>Download Resume</span>  
+
           </button></a>
 
     </div>
