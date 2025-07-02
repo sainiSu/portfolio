@@ -29,7 +29,7 @@ export default function AboutMe() {
 
         <div className="flex justify-center space-x-4 mt-4">
           <a
-            href="/Suman Frontend Developer1.pdf"
+            href="/Suman FrontEnd Developer .pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
